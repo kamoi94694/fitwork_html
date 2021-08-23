@@ -1,12 +1,120 @@
-	
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitwork</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <!-- グローバルメニューで、現在閲覧しているページのliに特定のクラスを付与するscript -->
+    <script src="./index.js"></script>
 </head>
 <body>
+    <!-- ヘッダー -->
+    <header>
+        <!-- グローバルメニュー -->
+        <nav class="header__global-menu">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./greeting.html">ご挨拶</a></li>
+                <li><a href="./job-description.html">仕事内容</a></li>
+                <li><a href="./business-request.html">業務の依頼</a></li>
+                <li><a href="./access.html">アクセス</a></li>
+                <li><a href="./contact.html">お問合せ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- メイン -->
+    <main>
+        <!-- サイトタイトル -->
+        <div class="homepage-content site-title">
+            <h1>障害者就労継続支援A型事業所　フィットワーク</h1>
+            <p><img src="https://fitwork.work/kamoi/wp-content/uploads/2021/06/c55b849c12eb96750183a6cb7b2ab783.png" alt="site-logo"></p>
+        </div>
+
+        <!-- フィットワークとは -->
+        <section class="homepage-content about-us">
+            <figure>
+                <img src="https://fitwork.work/kamoi/wp-content/uploads/2021/06/0562912b4230659902f54a503ee3c5ba.png" alt="illustration-bird1">
+            </figure>
+            <h2>フィットワークとは</h2>
+            <p>フィットワークは埼玉県越谷市にある障害者就労継続支援A型事業所です。</p>
+            <p>病気のせいで就労が長続きしなかった、その他さまざまな事情で一般就労に不安があるという障害者の方々のための事業所です。</p>
+            <br>
+            <p>まずは１日４時間の日中活動を通し、日常生活の安定と就労のための体調管理を目指します。</p>
+            <br>
+            <p>さらにそれぞれの得意やモチベーションに応じ、就労や自立につながる業務をその時の状況に応じて行なってゆきます。</p>
+        </section>
+
+        <!-- A型事業所とは -->
+        <section class="homepage-content about-industry">
+           <h2>A型事業所とは</h2> 
+           <p>障害者就労継続支援A型事業所とは、一般企業で働くことが難しい６５歳未満の方を</p>
+           <p>対象に一定の支援を受けながら継続して働けるような職場を提供する、障害者総合支援法に基づく福祉サービスです。</p>
+           <p>事業所と利用者の間で雇用契約を結び、最低賃金以上の給料で働きます。</p>
+        </section>
+
+        <!-- フィットワークの業務内容 -->
+        <section class="homepage-content work-contents">
+            <h2>フィットワークの業務内容</h2>
+            <p>フィットワークでは午前１０時から午後１５時の間、基本的に一日４時間の業務をお任せします。</p>
+            <dl>
+                <dt>商品管理・出荷作業</dt>
+                <dd>通販・ネットショップなどの商品入出荷、検品、セット組、梱包、ラベル貼り、商品写真撮影など</dd>
+                <br>
+                <dt>パソコンを使う作業</dt>
+                <dd>ネットショップの運営補助、SEO対策、広告作成、WEB制作、画像加工、データ入力、プログラミング、建築物管理のデータ作成など</dd>
+            </dl>
+            <p><a href="">業務依頼のお問合せはこちら</a></p>
+        </section>
+
+        <!-- ご利用までの流れ -->
+        <section class="homepage-content join-flow">
+            <h2>ご利用（雇用契約）までの流れ</h2>
+            <div class="join-flow__gridtable">
+                <p>１</p>
+                <p>見学予約</p>
+                <p>お近くのハローワークで求人票をご確認の上、担当の方に見学の希望をお伝えください</p>
+                <p>2</p>
+                <p>見学</p>
+                <p>予約した日時に事業所を見学します。業務内容や職場の雰囲気、通勤方法の確認などをしてください。</p>
+                <p>3</p>
+                <p>書類選考</p>
+                <p>見学の後、ご利用の希望に至った場合、書類選考を経て面接となります。当事業所あてに履歴書をご郵送ください。</p>
+                <p>4</p>
+                <p>面接</p>
+                <p>書類選考後一週間程度でお返事をし、日程を合わせ面接を行います。ご用意いただくものは、履歴書、ハローワークの紹介状、障害者手帳。<br>
+                通勤時を想定した普段着で面接にお越しください。</p>
+                <p>5</p>
+                <p>採用</p>
+                <p>面接から７日程度で電話、郵便もしくはメールにてお返事をいたします。<br>
+                採用に至った場合、日程を調整し障害福祉サービス受給者証の発行手続きや個別支援計画作成などを行い、協議した雇用開始日より、就労開始となります。</p>
+            </div>
+            <p><a href="">見学希望その他お問合せはこちら</a></p>
+        </section>
+
+        <section>
+            <h2>アクセスMAP</h2>
+            <p>東武スカイツリーライン　北越谷駅（西口）徒歩３分</p>
+            <p>お車でお越しの際は、近くの時間帯パーキングをご利用ください。</p>
+            <figure>
+                <img src="https://fitwork.work/kamoi/wp-content/uploads/2021/06/3df555a18afb21e6429645e81a68696d.png" alt="map">
+            </figure>
+        </section>
+
+    </main>
+
+
+    <!-- フッター -->
+    <footer>
+        <div class="footer__copyright">
+            <p>©︎２０１９FITWORK LLC</p>
+        </div>
+        <div class="footer__info">
+            <p><span>〒343-0026</span> <span>埼玉県越谷市北越谷2-40-19 エトワールシャトー204</span></p>
+            <p>E-mail: <a href="">info@fitwork.ltd</a> TEL:<a href="">048-973-7423</a> FAX:<a href="">048-973-7423</a></p>
+        </div>
+    </footer>
 </body>
 </html>
